@@ -1,0 +1,8 @@
+Lance Daniel P. Francisco
+age: 18
+gender:male
+address: prk. bayabayin uno, brgy. ibabang dupay, Lucena City
+Mother: Maricel C. Patiag
+Father: Michael P. Francisco
+hobbies: playing badminton, playing guitar, playing drums, playing bass, bike touring, drawing, painting, palying video games, playing billiards.
+favorite foods: adaobo, halohalo, dinuguan,alamang,ice cream, milk tea, mango, fried chicken.
