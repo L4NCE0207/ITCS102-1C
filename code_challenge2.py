@@ -1,39 +1,44 @@
 amount = eval(input("Enter amount to deposit: "))
-print("Here is a breakdown of your deposit:")
 
-ans1 = amount // 1000
-amount = amount - ans1 * 1000
+print ("Here is a breakdown of your deposit: ")
 
-ans2 = amount // 500
-amount = amount - ans2 * 500
-
-ans3 = amount // 200
-amount= amount - ans3 * 200
-
-ans4 = amount // 100
-amount = amount - ans4 * 100
-
-ans5 = amount // 50
-amount = amount - ans5 * 50
-  
-ans6 = amount // 20
-amount = amount - ans6 * 20
+thou = amount // 1000
+tc = amount % 1000
  
-ans7 = amount // 10
-amount = amount - ans7 * 10
 
-ans8 = amount // 5
-amount = amount - ans8 * 5
+fh = tc // 500 
+fhc = tc % 500
 
-ans9 = amount // 1
-amount = amount - ans9 * 1
+th = fhc // 200 
+thc = fhc % 200
 
-print(ans1, "-", 1000)
-print(ans2, "-", 500)
-print(ans3, "-", 200)
-print(ans4, "-", 100)
-print(ans5, "-", 50)
-print(ans6, "-", 20)
-print(ans7, "-", 10)
-print(ans8, "-", 5)
-print(ans9, "-", 1)
+oneh = thc // 100
+onehc = thc % 100
+
+fifty = onehc // 50
+fifty_change = onehc % 50
+
+twenty = fifty_change // 20
+twch = fifty_change % 20
+
+tens = twch // 10 
+tch = twch % 10
+
+fives = tch // 5 
+fc = tch % 5 
+
+ones = fc // 1 
+onec = fc % 1
+
+ 
+
+
+print (thou," - 1000")
+print (fh," - 500")
+print (th," - 200")
+print (oneh," - 100")
+print (fifty," - 50")
+print (twenty," - 20")
+print (tens," - 10")
+print (fives," - 5")
+print (ones," - 1")
