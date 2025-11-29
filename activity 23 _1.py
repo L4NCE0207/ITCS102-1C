@@ -18,3 +18,8 @@ def Factorial(number):
     for x in range(1, number + 1, 1):
         factorial *= x
     return factorial
+
+def GetTriangle():
+    for i in range(1,11,1):
+        for x in range(1,11,1):
+            print(x,end="")
